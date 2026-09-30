@@ -1,0 +1,16 @@
+[package]
+name = "bfd_responder"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vladimir Melnikov <wlad.w.m@gmail.com>"]
+description = "BFD responder"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/wladwm/bfd_responder"
+readme = "README.md"
+keywords = ["networking", "bfd", "routing"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mio = { version="1", features = ["os-poll","net"]}
+log = "0"
